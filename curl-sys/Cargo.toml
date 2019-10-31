@@ -19,7 +19,7 @@ name = "curl_sys"
 path = "lib.rs"
 
 [dependencies]
-libz-sys = "1.0.18"
+libz-sys = {path = 'C:\Workspace\libz-sys'}
 libc = "0.2.2"
 libnghttp2-sys = { optional = true, version = "0.1" }
 
